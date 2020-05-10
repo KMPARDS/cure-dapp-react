@@ -9,7 +9,6 @@ import ethers from 'ethers-wallet'
 import { sessionService } from 'redux-react-session';
 import axios from 'axios';
 import Config from '../helpers/Config'
-
 import {userActions} from '../actions'
 
 class Navigation extends Component {
@@ -18,7 +17,7 @@ class Navigation extends Component {
     this.state = {
 
     }
-    this.props.dispatch(userActions.logout());
+    // this.props.dispatch(userActions.logout());
   }
 
   connectToWallet = () => {
@@ -80,7 +79,7 @@ class Navigation extends Component {
             <NavDropdown title="Our Products" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Distributor</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Manufacturer</NavDropdown.Item>
-              <NavDropdown.Item href="/patient">Patient</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/patient">Patient</NavDropdown.Item> */}
               <NavDropdown.Item href="#action/3.3">Pharmacy</NavDropdown.Item>
               {/* <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}

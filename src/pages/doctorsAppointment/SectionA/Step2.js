@@ -21,18 +21,18 @@ class Step2 extends Component{
 
                             <Form.Group ClassName="step2" controlId="exampleForm.ControlSelect1">
                                 <Form.Label>College / Institute</Form.Label>
-                                <Form.Control as="text" placeholder="college/institute"/>
+                                <Form.Control type="text" placeholder="college/institute"/>
                             </Form.Group>
                             <Form.Group ClassName="step2" controlId="exampleForm.ControlGender">
                                 <Form.Label>Year of completion</Form.Label>
-                                <Form.Control as="text" placeholder="year of completion"/>
+                                <Form.Control type="text" placeholder="year of completion"/>
                             </Form.Group>
                             <Form.Group ClassName="step2" controlId="exampleForm.ControlCity">
                                 <Form.Label>Year of Experience</Form.Label>
                                 <Form.Control type="text" placeholder="Year of experience" />
                             </Form.Group>
-                            <Button style="margin-left:89%" >
-                                <a style="color:white" href="/step3a">Next</a>
+                            <Button style={{"marginLeft":"89%"}} >
+                                <a style={{color:"white"}} href="/step3a">Next</a>
                             </Button>
                         </Form>
                     </Row>

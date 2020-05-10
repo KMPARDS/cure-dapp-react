@@ -11,7 +11,7 @@ import Step1a from '../pages/doctorsAppointment/SectionA/Step1'
 import Step2a from '../pages/doctorsAppointment/SectionA/Step2'
 import Step3a from '../pages/doctorsAppointment/SectionA/Step3'
 import Step4a from '../pages/doctorsAppointment/SectionA/Step4'
-import Patient from '../pages/Patient/Home'
+import searchComponent from '../components/searchComponent';
 
 class Index extends Component{
   render(){
@@ -26,7 +26,7 @@ class Index extends Component{
         <Route path="/step2a" component={Step2a} />
         <Route path="/step3a" component={Step3a} />
         <Route path="/step4a" component={Step4a} />
-        <Route path="/patient" component={Patient} />
+        <Route path="/search" component={searchComponent} />
       </Switch>
       <Footer/>
     </div>

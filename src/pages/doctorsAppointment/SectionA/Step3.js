@@ -29,8 +29,8 @@ class Step3 extends Component{
                                 <Form.Label>Note: You can add multiple estaiblishment one by one</Form.Label>
                             </Form.Group>
 
-                            <Button style="margin-left:64%" ClassName="step3btn">
-                                <a style="color:white" href="/step4a">
+                            <Button style={{"marginLeft":"64%"}} ClassName="step3btn">
+                                <a style={{"color":"white"}} href="/step4a">
                                 Next
                                 </a>
                                 

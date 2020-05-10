@@ -1,32 +1,31 @@
 import {history} from '../helpers/history'
 import { userConstants } from '../constants';
 import {userService} from '../services'
+import { alertActions } from './alert.actions';
 
-const login = (signature , walletAddress , token) => {
-    console.log('login data is :');
-
-    const request = (user)  => { return { type: userConstants.LOGIN_REQUEST, user } }
-    const success = (user)  => { return { type: userConstants.LOGIN_SUCCESS, user } }
+const login =  (signature , walletAddress , token) => {
+    // console.log('login data is :');
+    const request = (userWalletAddress)  => { return { type: userConstants.LOGIN_REQUEST, userWalletAddress } }
+    const success = (loginData)  => { return { type: userConstants.LOGIN_SUCCESS, loginData } }
     const failure = (error) => { return { type: userConstants.LOGIN_FAILURE, error } }
 
     return dispatch => {
         dispatch(request({walletAddress}));
         userService.login(signature , walletAddress , token).then(
-            user =>{
-                // dispatch(success(user));
+            loginData =>{
+                console.log('loginData at userAction :',loginData);
+             dispatch(success(loginData));
             },
             error =>{
-                // dispatch(failure(error));
+            dispatch(failure(error));
+            dispatch(alertActions.error(error));
             }
         )
     }
-    
-    // function request(user) { return { type: userConstants.LOGIN_REQUEST, user } }
-    // function success(user) { return { type: userConstants.LOGIN_SUCCESS, user } }
-    // function failure(error) { return { type: userConstants.LOGIN_FAILURE, error } }
 }
 
 const logout = () => {
+    userService.logout();
     return { type: userConstants.LOGOUT };
 }
 

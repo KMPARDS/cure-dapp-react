@@ -1,13 +1,13 @@
 import React,{Component} from 'react'
 import {connect} from 'react-redux'
 import{ Media, Col, Row, Dropdown, InputGroup, FormControl,Container } from 'react-bootstrap'
-import  '../../App.css';
+import  '../App.css';
  
 
-class Home extends Component{
+class searchComponent extends Component{
     render(){
         return(
-            <div className="maindiv patientrow">
+            <div className="maindiv searchrow">
                 {/* <header> */}
                     <Media>
                     <img className="navimg" src="images/woman-discussing-a-lesson-3758869.jpg" />
@@ -59,4 +59,4 @@ class Home extends Component{
     }
 }
 
-export default connect()(Home);
+export default connect()(searchComponent);
