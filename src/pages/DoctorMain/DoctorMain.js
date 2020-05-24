@@ -1,0 +1,126 @@
+import React, { Component } from 'react';
+import '../DoctorMain/DoctorMain.css';
+import { Row, Col, Container, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
+
+class DoctorMain extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+
+        };
+
+    }
+
+    render() {
+
+
+        return (
+            <div>
+                <Container>
+                    <div className='doctor-container'>
+                        <Row>
+                            <input className='loc-search' type="search" id="gsearch" name="gsearch" placeholder="Location" />
+                            <input className='doc-search' type="search" id="gsearch" name="gsearch" placeholder="Search for Doctors" />
+                        </Row>
+                        <div>
+                            <Row>
+                                <Col><div className='contact-box'>
+                                    <div className='name-box'>
+                                        <div className='dr-img'></div>
+                                        <div className='dr-detail-txt'>
+                                            <h4 className='name-head'>Name</h4>
+                                            <p className='dr-name-txt'>1 Doctor</p>
+                                            <p className='dr-name-txt'>ES 500 onwards</p>
+                                            <p className='dr-name-txt'>50 Feedbacks</p>
+                                            <div className='dr-more-box'>
+                                                <div className='more-img'></div>
+                                                <div className='more-img'></div>
+                                                <div className='more-img'></div>
+                                            </div>
+                                            <div className='dr-name-txt'> Treatmet Treatment </div>
+                                        </div>
+                                    </div>
+                                    <div className='dr-btn-container'>
+                                        <div className='dr-name-txt'>Location Name</div>
+                                        <button className='contact-btn'>Contact</button>
+                                    </div>
+                                </div>
+                                </Col>
+                                <Col><div className='contact-box'>
+                                    <div className='name-box'>
+                                        <div className='dr-img'></div>
+                                        <div className='dr-detail-txt'>
+                                            <h4 className='name-head'>Name</h4>
+                                            <p className='dr-name-txt'>1 Doctor</p>
+                                            <p className='dr-name-txt'>ES 500 onwards</p>
+                                            <p className='dr-name-txt'>50 Feedbacks</p>
+                                            <div className='dr-more-box'>
+                                                <div className='more-img'></div>
+                                                <div className='more-img'></div>
+                                                <div className='more-img'></div>
+                                            </div>
+                                            <div className='dr-name-txt'> Treatmet Treatment </div>
+                                        </div>
+                                    </div>
+                                    <div className='dr-btn-container'>
+                                        <div className='dr-name-txt'>Location Name</div>
+                                        <button className='contact-btn'>Contact</button>
+                                    </div>
+                                </div>
+                                </Col>
+                                <Col><div className='contact-box'>
+                                    <div className='name-box'>
+                                        <div className='dr-img'></div>
+                                        <div className='dr-detail-txt'>
+                                            <h4 className='name-head'>Name</h4>
+                                            <p className='dr-name-txt'>1 Doctor</p>
+                                            <p className='dr-name-txt'>ES 500 onwards</p>
+                                            <p className='dr-name-txt'>50 Feedbacks</p>
+                                            <div className='dr-more-box'>
+                                                <div className='more-img'></div>
+                                                <div className='more-img'></div>
+                                                <div className='more-img'></div>
+                                            </div>
+                                            <div className='dr-name-txt'> Treatmet Treatment </div>
+                                        </div>
+                                    </div>
+                                    <div className='dr-btn-container'>
+                                        <div className='dr-name-txt'>Location Name</div>
+                                        <button className='contact-btn'>Contact</button>
+                                    </div>
+                                </div>
+                                </Col>
+                            </Row>
+                        </div>
+                        <div className="appointment-container">
+                            <div className="apt-dr-main">
+                                <div className='dr-name-flex'>
+                                    <div className="inside-flex">
+                                    <div className="img-app-dr"></div>
+                                    <div>
+                                        <p className='dr-name-txt'>Dr Vipul Roy</p>
+                                        <p className='dr-title'>Gastroentrologist</p>
+                                        <p className='dr-title'>25 years of experience</p>
+                                        <p className='dr-color-title'>95%(400 votes)</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p className='status-txt'>Medical Registration</p>
+                                        <p className='status-green-txt'>Verified</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Container>
+            </div>
+        );
+    }
+}
+
+
+
+
+export default DoctorMain;

@@ -12,6 +12,15 @@ import Step2a from '../pages/doctorsAppointment/SectionA/Step2'
 import Step3a from '../pages/doctorsAppointment/SectionA/Step3'
 import Step4a from '../pages/doctorsAppointment/SectionA/Step4'
 import searchComponent from '../components/searchComponent';
+import KycVerification from '../pages/KYCVerification/KycVerification';
+import DoctorMain from '../pages/DoctorMain/DoctorMain';
+import IdentityProof from '../pages/IdentityProof/IdentityProof';
+import MedicalRegistration from '../pages/MedicalRegistration/MedicalRegistration';
+import EstablishmentProof from '../pages/EstablishmentProof/EstablishmentProof';
+import DoctorDetail from '../pages/DoctorDetail/DoctorDetail';
+import MapLocation from '../pages/MapLocation/MapLocation';
+import Account from '../pages/Account/Account';
+import EstablishmentTiming from '../pages/EstablishmentTiming/EstablishmentTiming';
 
 class Index extends Component{
   render(){
@@ -27,6 +36,15 @@ class Index extends Component{
         <Route path="/step3a" component={Step3a} />
         <Route path="/step4a" component={Step4a} />
         <Route path="/search" component={searchComponent} />
+        <Route path="/KycVerify" component={KycVerification} />
+        <Route path="/DoctorMain" component={DoctorMain} />
+        <Route path="/IdentityProof" component={IdentityProof} />
+        <Route path="/MedicalRegistration" component={MedicalRegistration} />
+        <Route path="/EstablishmentProof" component={EstablishmentProof} />
+        <Route path="/DoctorDetail" component={DoctorDetail} />
+        <Route path="/MapLocation" component={MapLocation} />
+        <Route path="/account" component={Account} />
+        <Route path="/timing" component={EstablishmentTiming} />
       </Switch>
       <Footer/>
     </div>

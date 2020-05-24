@@ -1,0 +1,58 @@
+.main-container{
+    border: 1px solid  #a7a7a773;
+    border-radius: 10px;
+    margin-bottom:18%;
+    background-color: #FFF;
+    padding-top: 30px;
+    width: 80%;
+}
+
+.identity-container{
+    max-width: 90%;
+    margin: 0 auto;
+ }
+ .top-account-profile{
+     display: flex;
+     border-bottom: 1px solid #a7a7a757;
+     margin-bottom: 20px; 
+ }
+
+ .second-account-profile{
+    display: flex;
+    border-bottom: 1px solid #a7a7a757;
+    margin-bottom: 20px; 
+ }
+ .third-account-profile{
+    display: flex;
+    border-bottom: 1px solid #a7a7a757;
+    margin-bottom: 20px;  
+ }
+
+ .profile-img{
+     width: 60px;
+     height: 60px;
+     border: 1px solid #a7a7a7;
+     border-radius: 60px;
+     margin-bottom: 20px;
+ }
+ .account-heading{
+     font-size: 20px;
+     font-weight: bold;
+     text-align: initial;
+ }
+ ::placeholder {
+    color:#a7a7a7;
+    opacity: 1; 
+  }
+
+  .ac-flex{
+      margin-left: 20%;
+  }
+  .ac-name-field{
+      border-radius: 2px;
+  }
+
+  .sec-ac-name-field{
+      margin-bottom: 20px;
+      
+  }
