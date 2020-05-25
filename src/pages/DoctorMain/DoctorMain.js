@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import '../DoctorMain/DoctorMain.css';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import { faHome, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class DoctorMain extends Component {
     constructor(props) {
@@ -98,18 +99,44 @@ class DoctorMain extends Component {
                             <div className="apt-dr-main">
                                 <div className='dr-name-flex'>
                                     <div className="inside-flex">
-                                    <div className="img-app-dr"></div>
-                                    <div>
-                                        <p className='dr-name-txt'>Dr Vipul Roy</p>
-                                        <p className='dr-title'>Gastroentrologist</p>
-                                        <p className='dr-title'>25 years of experience</p>
-                                        <p className='dr-color-title'>95%(400 votes)</p>
+                                        <div className="img-app-dr"></div>
+                                        <div>
+                                            <p className='dr-name-txt'>Dr Vipul Roy</p>
+                                            <p className='dr-title'>Gastroentrologist</p>
+
+                                            <p className='dr-title'>25 years of experience</p>
+                                            <div className="icon-dr-flex">
+                                                <img className="like-dr-img" src='images/like.png' />
+                                                <p className='dr-color-title'>95%(400 votes)</p></div>
                                         </div>
                                     </div>
                                     <div>
                                         <p className='status-txt'>Medical Registration</p>
                                         <p className='status-green-txt'>Verified</p>
                                     </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="icon-dr-flex">
+                                    <img className="like-dr-img" src='images/mortarboard.png' />
+                                    <p className='dr-title'>BDS,MDS-Oral Medicine and Radiology</p>
+                                </div>
+                                <p className='dr-title'>Dentist,DentalSurgeon,Cosmetic/Athestic Dentist,implantologist ,Oral Medicine and Radiology,</p>
+                                <div className="icon-dr-flex">
+                                    <img className="like-dr-img" src='images/like.png' />
+                                    <p className='dr-title'>Garoentrologist</p>
+                                </div>
+                                <div className="appointment-flex">
+                                    <div className="adjust-txt">
+                                        <div className="icon-dr-flex">
+                                            <img className="like-dr-img" src='images/maps-and-flags.png' />
+                                            <p className='dr-title'>Mumbai :World institute</p>
+                                        </div>
+                                        <p className='dr-title'>Fees: ES 500 for Regular consultations</p>
+                                        <p className='dr-title'>Timing 9am to 12pm</p>
+
+                                    </div>
+                                    <button className='book-btn'>Book a Appointment</button>
                                 </div>
                             </div>
                         </div>

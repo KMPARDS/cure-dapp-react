@@ -14,18 +14,18 @@
  .top-account-profile{
      display: flex;
      border-bottom: 1px solid #a7a7a757;
-     margin-bottom: 20px; 
+     margin-bottom: 30px; 
  }
 
  .second-account-profile{
     display: flex;
     border-bottom: 1px solid #a7a7a757;
-    margin-bottom: 20px; 
+    margin-bottom: 30px; 
  }
  .third-account-profile{
     display: flex;
     border-bottom: 1px solid #a7a7a757;
-    margin-bottom: 20px;  
+    margin-bottom: 30px;  
  }
 
  .profile-img{
@@ -53,6 +53,6 @@
   }
 
   .sec-ac-name-field{
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       
   }

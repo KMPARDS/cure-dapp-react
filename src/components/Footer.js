@@ -15,15 +15,10 @@ class Footer extends Component{
                             <p>Sign up with email address to receive news and updates</p>
                         </Col>
                         <Col>
-                            <Row>
-                                <Col xs lg="9">
-                                    <input type="text" placeholder="Email id" />
-                                </Col>
-                                <Col xs lg="3">
-                                    <Button>Send</Button>
-                                </Col>
-
-                            </Row>
+                                <div className="footer-input">
+                                    <input class="input-field-footer" type="text" placeholder="Email id" />                       
+                                    <button className="send-btn-footer">Send</button>
+                                    </div>
                         </Col>
                     </Row>
                     <Row>
@@ -35,9 +30,9 @@ class Footer extends Component{
                                     alt="171x180"
                                     src="images/page.jpg"
                                 />
-                                <Figure.Caption>
+                                <div>
                                     It is long estaiblished fact that reader can be distracted by a readable content
-                                </Figure.Caption>
+                                </div>
                             </Figure>
 
                         </Col>
@@ -68,10 +63,8 @@ class Footer extends Component{
                                 <li>+0123456789</li>
                                 <li>xyz@gmail.com</li>
                             </ul>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <ul>
+                      
+                            <ul className="footer-social-link">
                             <li><SocialIcon url="http://facebook.com" /></li>
                             <li><SocialIcon url="http://twitter.com" /></li>
 
@@ -80,10 +73,12 @@ class Footer extends Component{
                             <li><SocialIcon url="http://twitter.com" /></li>
 
                             <li><SocialIcon url="http://twitter.com" /></li>
-
-
                         </ul>
+                      
+                        </Col>
+                       
                     </Row>
+                   
                </Container>
             </footer>
         )

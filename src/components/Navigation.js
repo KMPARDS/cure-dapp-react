@@ -74,7 +74,7 @@ class Navigation extends Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/account">Home</Nav.Link>
+            <Nav.Link href="/DoctorMain">Home</Nav.Link>
 
             <NavDropdown title="Our Products" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Distributor</NavDropdown.Item>

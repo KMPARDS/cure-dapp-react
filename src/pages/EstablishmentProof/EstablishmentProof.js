@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import '../EstablishmentProof/EstablishmentProof.css';
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { faHome ,faGraduationCap } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 class EstablishmentProof extends Component {
     constructor(props) {
@@ -19,7 +18,6 @@ class EstablishmentProof extends Component {
             <div>
                 <Container>
                     <div className='main-container'>
-                    <FontAwesomeIcon icon={faGraduationCap} />
                         <div className='identity-container'>
                             <h3 className='identity-heading'>Establishment Proof</h3>
                             <p className='identity-txt'>Demo</p>

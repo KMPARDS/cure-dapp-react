@@ -51,8 +51,8 @@ class Account extends Component {
 
                             <div className="third-account-profile">
                             <Row>
-                                <Col> <input  type="text" id="fname" name="fname" placeholder="Alternate Phone No." /></Col>
-                                <Col> <input  type="text" id="fname" name="fname" placeholder="Language" /></Col>
+                                <Col> <input className="sec-ac-name-field"  type="text" id="fname" name="fname" placeholder="Alternate Phone No." /></Col>
+                                <Col> <input className="sec-ac-name-field"  type="text" id="fname" name="fname" placeholder="Language" /></Col>
                              </Row>
                             
                             </div>
