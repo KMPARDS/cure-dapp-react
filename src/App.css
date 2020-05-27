@@ -33,16 +33,22 @@
 .card-img-top{ padding: 17px; border-radius: 22px; height: 154px; }
 .card-body img{margin-top: 9px; border-radius: 21px; margin-left: -6px; width: 41px !important; }
 .input-group textarea { padding: 10px; margin-left: -18px; }
+.fixed-top{
+  position: unset !important;
+}
 footer{  background: rgb(13, 193, 193)!important; color: white; font-weight: 500; }
-footer .container{ padding: 55px; }
+footer .container{ padding-top:40px; padding-bottom: 30px; }
 footer li{ list-style: none; } 
-footer .row{ margin-bottom: 50px;}
+footer .row{ margin-bottom: 30px;}
 footer input{ border: none; width: 86%; text-align: center; border-radius: 10px; font-weight: 500; padding: 7px; }
 footer button{ background-color: white; border: none; color: black; font-weight: 600; margin-left: -129px; border-radius: 7px; }
 .subscribe{ text-align: initial; }
 .subscribe p:first-child{ margin-bottom: -5px; }
 form{ text-align: initial;}
 form input{ margin-top: -6px; height: 33px; }
+.below-footer-txt{
+  max-width: 300px;
+}
 .stepdiv{ background-color: #f5f3f3ea; }
 .stepdiv .container{ padding: 80px; margin-bottom: 70px;}
 .stepdiv .row{ padding: 51px; background-color: white; border-radius: 17px;margin:60px 0 0 102px;width: 80%;box-shadow: 2px -1px 22px 5px #c7c7c7;}
@@ -87,5 +93,10 @@ form input{ margin-top: -6px; height: 33px; }
     margin-top: 0;
     width: 150px;
     height: 40px;
+  }
+  .social-Img{
+    width: 30px;
+    height: 30 px;
+    margin: 20px 5px 10px 5px;
   }
  

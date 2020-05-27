@@ -45,7 +45,7 @@ class DoctorMain extends Component {
                                     </div>
                                     <div className='dr-btn-container'>
                                         <div className='dr-name-txt'>Location Name</div>
-                                        <button className='contact-btn'>Contact</button>
+                                        <a href="/" className='contact-btn'>Contact</a>
                                     </div>
                                 </div>
                                 </Col>
@@ -67,7 +67,7 @@ class DoctorMain extends Component {
                                     </div>
                                     <div className='dr-btn-container'>
                                         <div className='dr-name-txt'>Location Name</div>
-                                        <button className='contact-btn'>Contact</button>
+                                        <a href="/" className='contact-btn'>Contact</a>
                                     </div>
                                 </div>
                                 </Col>
@@ -89,7 +89,7 @@ class DoctorMain extends Component {
                                     </div>
                                     <div className='dr-btn-container'>
                                         <div className='dr-name-txt'>Location Name</div>
-                                        <button className='contact-btn'>Contact</button>
+                                        <a href="/KycVerify" className='contact-btn'>Contact</a>
                                     </div>
                                 </div>
                                 </Col>
@@ -136,7 +136,7 @@ class DoctorMain extends Component {
                                         <p className='dr-title'>Timing 9am to 12pm</p>
 
                                     </div>
-                                    <button className='book-btn'>Book a Appointment</button>
+                                    <button href="" className='book-btn'>Book a Appointment</button>
                                 </div>
                             </div>
                         </div>

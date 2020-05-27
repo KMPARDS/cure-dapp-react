@@ -28,9 +28,9 @@ class Footer extends Component{
                                     width={171}
                                     height={180}
                                     alt="171x180"
-                                    src="images/page.jpg"
+                                    src="images/curelogo.png"
                                 />
-                                <div>
+                                <div className="below-footer-txt">
                                     It is long estaiblished fact that reader can be distracted by a readable content
                                 </div>
                             </Figure>
@@ -56,26 +56,18 @@ class Footer extends Component{
                                 </Col>
 
                             </Row>
-                        </Col>
-
-                        <Col> 
-                            <ul>
-                                <li>+0123456789</li>
-                                <li>xyz@gmail.com</li>
-                            </ul>
-                      
+                            <Col> 
                             <ul className="footer-social-link">
-                            <li><SocialIcon url="http://facebook.com" /></li>
-                            <li><SocialIcon url="http://twitter.com" /></li>
-
-                            <li><SocialIcon url="http://youtube.com" /></li>
-
-                            <li><SocialIcon url="http://twitter.com" /></li>
-
-                            <li><SocialIcon url="http://twitter.com" /></li>
+                            <li><img className='social-Img'  src="images/fb.png" alt='fb' /></li>
+                            <li><img className='social-Img'  src="images/insta.png" alt='fb' /></li>
+                            <li><img className='social-Img'  src="images/twittr.png" alt='fb' /></li>
+                            <li><img className='social-Img'  src="images/linkdin.png" alt='fb' /></li>
+                            <li><img className='social-Img'  src="images/utube.png" alt='fb' /></li>
                         </ul>
-                      
                         </Col>
+                        </Col>
+
+                      
                        
                     </Row>
                    

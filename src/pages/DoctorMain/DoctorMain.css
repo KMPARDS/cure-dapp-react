@@ -35,6 +35,8 @@
       padding: 10px;
       background-color: #ffffff;
       border-radius: 10px;
+      padding: 10px;
+  box-shadow: 1px 4px #a7a7a773;
   }
   .name-box{
       display: flex;
@@ -76,6 +78,7 @@
       color: #ffffff;
       border-radius: 15px;
       font-weight: bold;
+      padding-top: 10px;
   }
   .img-app-dr{
       width: 80px;
@@ -155,4 +158,19 @@
   }
   .adjust-txt{
       text-align: initial;
+  }
+
+  @media (max-width: 768px) {
+    .appointment-container{
+        width: 100%;
+    }
+    .book-btn{
+        font-size: 12px;
+    }
+    .contact-box{
+        margin-top: 20px;
+    }
+    .input-field-footer{
+        width: 200px;
+    }
   }
