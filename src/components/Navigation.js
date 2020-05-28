@@ -70,7 +70,7 @@ class Navigation extends Component {
   return (
     <div className="App">
       <Navbar fixed="top" className="bgimg" expand="lg">
-        <Navbar.Brand href="#">Cure-daap</Navbar.Brand>
+        <Navbar.Brand href="#"><img className="header-logo" src="images/curelogo.png"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

@@ -24,6 +24,10 @@
 .navbar-light .navbar-nav .nav-link {
   color: rgb(245, 245, 245); padding-left: 25px;
 }
+.header-logo{
+  width: 135px;
+  height: 120px;
+}
 .content{ margin: 0 57px; font-weight: 700; font-size: larger;    margin-top: 72px;
 }
 .mr-3{ border-radius: 11px; width: 71%; }

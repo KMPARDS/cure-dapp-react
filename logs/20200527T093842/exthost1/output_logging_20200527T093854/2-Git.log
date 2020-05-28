@@ -5451,3 +5451,49 @@ fatal: no upstream configured for branch 'riya'
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git config --get commit.template
+> git ls-files --stage -- /home/artis/Workspace/cure-dapp-react/src/pages/DoctorMain/DoctorMain.css
+> git cat-file -s e0a8453d2b877616db6ce1cdae0c69b1d2d8d1e5
+> git status -z -u
+> git show :src/pages/DoctorMain/DoctorMain.css
+> git symbolic-ref --short HEAD
+> git rev-parse riya
+> git rev-parse --symbolic-full-name riya@{u}
+fatal: no upstream configured for branch 'riya'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse riya
+> git rev-parse --symbolic-full-name riya@{u}
+fatal: no upstream configured for branch 'riya'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse riya
+> git rev-parse --symbolic-full-name riya@{u}
+fatal: no upstream configured for branch 'riya'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/artis/Workspace/cure-dapp-react/src/pages/DoctorMain/DoctorMain.css
+> git cat-file -s e0a8453d2b877616db6ce1cdae0c69b1d2d8d1e5
+> git show :src/pages/DoctorMain/DoctorMain.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse riya
+> git rev-parse --symbolic-full-name riya@{u}
+fatal: no upstream configured for branch 'riya'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse riya
+> git rev-parse --symbolic-full-name riya@{u}
+fatal: no upstream configured for branch 'riya'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
