@@ -1,0 +1,60 @@
+
+
+ .main-container{
+    border: 1px solid  #a7a7a773;
+    border-radius: 10px;
+    margin-bottom:18%;
+    background-color: #FFF;
+    padding-top: 30px;
+    width: 80%;
+    padding: 10px;
+    box-shadow: 1px 4px #a7a7a773;
+    margin-top: 10%;
+}
+
+.identity-container{
+   max-width: 90%;
+   margin: 0 auto;
+}
+.identity-heading{
+   font-weight: bold;
+   text-align: initial;
+   font-size: 23px;
+}
+
+.name-field{
+   color: #827a7a;
+   margin-bottom: 0px;
+   display: flex;
+   justify-content: end;
+   width: 85%;
+   height: 140px;
+
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
+}
+.id-next-btn{
+    color: #FFF;
+    text-align: center;
+    border: 0px;
+    background-color: rgb(13, 193, 193) ;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.identity-txt{
+    text-align: initial;
+    margin-bottom: 0;
+    color: #827a7a;
+}
+
+.id-rq-txt{
+    text-align: initial;
+    color: #827a7a;
+}
+.id-sub-txt{
+    text-align: initial;
+}

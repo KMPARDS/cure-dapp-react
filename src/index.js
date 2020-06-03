@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
-import { store, history} from './store';
+import { store} from './store';
 import { ConnectedRouter } from 'react-router-redux';
 import { AppContainer } from 'react-hot-loader';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { sessionService } from 'redux-react-session';
+
+// Init the session service
+sessionService.initSessionService(store, { driver: 'COOKIES' });
 
 ReactDOM.render(
   <AppContainer>

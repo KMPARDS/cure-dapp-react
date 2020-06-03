@@ -1,0 +1,36 @@
+
+.kyc-container{
+   max-width: 90%;
+   margin: 0 auto;
+ 
+}
+.main-container{
+    border: 1px solid  #a7a7a773;
+    border-radius: 10px;
+    margin-bottom:18%;
+    background-color: #FFF;
+    padding-top: 30px;
+    padding: 10px;
+    box-shadow: 1px 4px #a7a7a773;
+    margin-top: 10%;
+}
+.change-txt{
+    color: rgb(13, 193, 193);
+    border-bottom: 1px solid #a7a7a773;
+    padding-bottom: 30px;
+}
+
+.kyc-detail{
+ text-align: initial;
+}
+.section-txt{
+    color: #827a7a;
+    margin-bottom: 0px;
+    margin-top :30px;
+}
+.sub-txt{
+    margin-bottom: 0px;
+}
+.kyc-heading{
+    font-weight: bold;
+}
